@@ -1,5 +1,5 @@
 $(document).on('ready', function() {
-	$('.slider').slick({
+	$('.slider').slick({		// small sliders
 		dots: false,
 	    infinite: true,
         slidesToShow: 4,
@@ -28,7 +28,7 @@ $(document).on('ready', function() {
 		      }
 		    },
 		    {
-		      breakpoint: 350,
+		      breakpoint: 350
 		      settings: {
 		        slidesToShow: 1,
 		        slidesToScroll: 1
@@ -37,7 +37,7 @@ $(document).on('ready', function() {
 	    ]
 	});
 
-	$('.sl-big').slick({
+	$('.sl-big').slick({		// big slider
 		infinite: true,
 		slidesToShow: 7,
 		slidesToScroll: 1,
